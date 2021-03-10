@@ -1,0 +1,18 @@
+[submodule "Response"]
+	path = Response
+	url = https://github.com/FDA-MyStudies/Response.git
+[submodule "WCP-WS"]
+	path = WCP-WS
+	url = https://github.com/FDA-MyStudies/WCP-WS.git
+[submodule "WCP"]
+	path = WCP
+	url = https://github.com/FDA-MyStudies/WCP.git
+[submodule "UserReg-WS"]
+	path = UserReg-WS
+	url = https://github.com/FDA-MyStudies/UserReg-WS.git
+[submodule "iOS"]
+	path = iOS
+	url = https://github.com/FDA-MyStudies/iOS.git
+[submodule "Android"]
+	path = Android
+	url = https://github.com/FDA-MyStudies/Android.git
