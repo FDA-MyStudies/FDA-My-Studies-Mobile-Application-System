@@ -14,9 +14,9 @@ Set up requires the deployment and configuration of the following components. De
 - the **Response Server** which handles and stores the responses sent by the Mobile App \(Response\)
 - the **Web Configuration Portal** where administrators design research questionnaires \(WCP and WCP-WS\) 
 
-**Setup Instructions**:
+Setup Instructions:
 
-- **[FDA MyStudies: Technical Setup Document](https://www.labkey.org/FDAMyStudiesHelp/wiki-page.view?name=setupInstructions)**
+- [FDA MyStudies: Technical Setup Document](https://www.labkey.org/FDAMyStudiesHelp/wiki-page.view?name=setupInstructions)
 
 ### Learn More
 
