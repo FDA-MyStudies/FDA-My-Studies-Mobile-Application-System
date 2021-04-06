@@ -3,13 +3,16 @@
 ### Background
 
 The FDA MyStudies App is designed to facilitate direct patient input of real world data which can be linked to electronic health data,
-thereby supporting traditional clinical trials, pragmatic trials, observational studies and registries. It was developed by the FDA and
+thereby supporting traditional clinical trials, pragmatic trials, observational studies, and registries. It was developed by the FDA and
 private sector partners, but source code and documentation have been released to the public as open source software so the app and data
-storage system can be reconfigured and rebranded by other organizations conducting clinical research and improved by software developers.
-The FDA MyStudies App has several important features. The data storage environment is secure and supports controls necessary for compliance
-with 21 CFR Part 11 and the Federal Information Security Management Act, so it can be used for trials under Investigational New Drug
-oversight. The app is configurable for different therapeutic areas and health outcomes which reduces software development hurdles for
-non-FDA users. The data storage environment is scalable and partitioned to support large multi-site trials or “distributed database” studies.
+storage system can be reconfigured and rebranded by other organizations conducting clinical research. It can also be improved by software
+developers.
+
+The system has several important features. The data storage environment is secure and supports controls necessary for compliance with
+21 CFR Part 11 and the Federal Information Security Management Act, so it can be used for trials under Investigational New Drug oversight.
+The app is configurable to accommodate different therapeutic areas, health outcomes, surveys, and consents, which reduces or eliminates
+software development hurdles for those who wish to deploy it. The data storage environment is scalable and partitioned to support multiple
+clinical trials from different organizations, large multi-site trials, and “distributed database” studies.
 
 These resources provide detailed background information about the FDA MyStudies system:
 
