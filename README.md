@@ -26,9 +26,28 @@ configuration portal (WCP), and storage environment. The mobile apps and WCP wer
 The registration server and storage environment are extensions of LabKey Server, a platform developed by LabKey and 
 available under the Apache 2.0 license. All development occurred under the direction of FDA and the Harvard Pilgrim Research Institute (HPHCI).
 
+This Git repository includes six submodules, one for each major component of the FDA MyStudies system. If you're not familiar with submodules,
+you may want to review the [Git Submodules documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules). We strongly recommend upgrading
+to the latest Git version to ensure you have full support for submodules. To clone this repository and automatically initialize and update each
+submodule, use the `--recurse-submodules` flag, for example:
+
+```
+git clone --recurse-submodules https://github.com/FDA-MyStudies/FDA-My-Studies-Mobile-Application-System.git
+```
+Once the repository and submodules are cloned, you can periodically pull all the latest changes using:
+```
+git pull --recurse-submodules
+```
+
+This consolidated repository provides access to the latest code for every FDA MyStudies component. We are actively working on providing a
+consolidated build process that can compile every submodule into a deployable component from this top-level repository. In the meantime,
+those who wish to develop or build the MyStudies components will need to visit the individual repositories and follow the build instructions
+to build each component separately.
+
 ### Documentation
 
-Set up requires the deployment and configuration of the following components. Development of each component is done in one or more submodules; links to the submodule version most recently published to production are provided here. 
+Set up requires the deployment and configuration of the following components. Development of each component is done in one or more submodules;
+links to the submodule version most recently published to production are provided here. 
 
 - the **Registration Server** where participants sign up and create an account \(UserReg-WS\)
 - the **Mobile Client App** into which participants enter data \(Android or iOS\)
